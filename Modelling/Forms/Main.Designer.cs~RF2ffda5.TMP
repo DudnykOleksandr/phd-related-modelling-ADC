@@ -1,0 +1,176 @@
+﻿namespace Modelling
+{
+    partial class Main
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.BitsNumber = new System.Windows.Forms.ComboBox();
+            this.Radix = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Tolerance = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // BitsNumber
+            // 
+            this.BitsNumber.FormattingEnabled = true;
+            this.BitsNumber.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18"});
+            this.BitsNumber.Location = new System.Drawing.Point(90, 40);
+            this.BitsNumber.Name = "BitsNumber";
+            this.BitsNumber.Size = new System.Drawing.Size(121, 21);
+            this.BitsNumber.TabIndex = 7;
+            this.BitsNumber.Text = "15";
+            // 
+            // Radix
+            // 
+            this.Radix.FormattingEnabled = true;
+            this.Radix.Items.AddRange(new object[] {
+            "1,618",
+            "1,84",
+            "Фібоначчі"});
+            this.Radix.Location = new System.Drawing.Point(90, 8);
+            this.Radix.Name = "Radix";
+            this.Radix.Size = new System.Drawing.Size(121, 21);
+            this.Radix.TabIndex = 8;
+            this.Radix.Text = "1,618034";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(18, 51);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "розрядів";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(18, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 16);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "К-сть";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Основа СЧ";
+            // 
+            // Tolerance
+            // 
+            this.Tolerance.FormattingEnabled = true;
+            this.Tolerance.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"});
+            this.Tolerance.Location = new System.Drawing.Point(90, 78);
+            this.Tolerance.Name = "Tolerance";
+            this.Tolerance.Size = new System.Drawing.Size(121, 21);
+            this.Tolerance.TabIndex = 10;
+            this.Tolerance.Text = "10";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(20, 78);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 16);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Допуск";
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(833, 302);
+            this.Controls.Add(this.Tolerance);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.BitsNumber);
+            this.Controls.Add(this.Radix);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "Main";
+            this.Text = "Main";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ComboBox BitsNumber;
+        private System.Windows.Forms.ComboBox Radix;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox Tolerance;
+        private System.Windows.Forms.Label label3;
+    }
+}
+
